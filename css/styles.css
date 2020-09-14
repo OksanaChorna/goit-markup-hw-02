@@ -71,6 +71,7 @@ body {
   text-align/*ПРИБРАТИ?*/: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  background-color: #2f303a; /* тимчасово для видноти тексту*/
   color: #ffffff;
 }
 
@@ -141,6 +142,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--primery-description-color);
 }
+
+.team-fon {
+  background-color: #f5f4fa;
+}
 /*=====END OUR TEAM=====*/
 
 /*=====FOOTER=====*/
@@ -163,6 +168,10 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-fon {
+  background-color: #2f303a;
 }
 /*=====END FOOTER=====*/
 

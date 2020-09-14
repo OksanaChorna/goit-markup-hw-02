@@ -2,8 +2,9 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196F3;
-} /*  background-color: var(--primary-white-color--);
-  color: var(--primery-text-color--); */
+  --primary-background-color: #e5e5e5;
+  --primery-title-color: #212121; 
+  --primery-description-color: #757575;*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -192,5 +193,13 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+}
+
+.portfolio-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /*=====END PORTFOLIO=====*/

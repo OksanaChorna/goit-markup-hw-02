@@ -45,6 +45,10 @@ body {
   color: var(--primery-title-color);
 }
 
+.active {
+  color: var(--accent-color);
+}
+
 .address-list {
   font-family: var(--main-font);
   font-style: normal;
@@ -150,6 +154,15 @@ body {
 
 /*=====FOOTER=====*/
 
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
 .address {
   font-family: var(--main-font);
   font-style: normal;
